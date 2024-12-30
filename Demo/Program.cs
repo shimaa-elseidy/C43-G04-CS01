@@ -59,8 +59,43 @@
             //       3. Ploymorphism
             //       4. Abstraction
             //     =====================================================
+            #endregion
+            #region  03 Encapsulation using Setter Getter Methods
+            // Encapsulation :
+            // class struct
+            // Seperate The Data (Attributes) Defination From Its Use
+            // By [Setter & Getter Method - Propertise]
 
+            // Employee =====> Id Name Salary
 
+            //Employee E01 = new Employee();
+            //E01.id = 1;        //* it has problems ==> End user access data itself
+            //E01.salary = -10; //* it has problems ==> No data validation
+            //* it has problems ==>No Reed only field
+            // ....................So we Apply Encapsulation.............
+            // 1. make all data (attribute) private.
+            // 2. Access data from
+            //   2.1. Setter Getter Method
+            //   2.2. Properties
+
+            //E01.SetId(1);
+            //E01.SetName("shimaa");
+            //E01.SetSalary(10000.5);
+            //Console.WriteLine(E01.GetId());
+            //Console.WriteLine(E01.GetName());
+            //Console.WriteLine(E01.GetSalary());
+
+            //Employee E02 = new Employee(1,"ahmed",12345);
+
+            // id ==> Read only attributes
+
+            //E02.SetId(1);
+            //E02.SetName("shimaa");
+            //E02.SetSalary(10000.5);
+            //Console.WriteLine(E02.GetId());
+            //Console.WriteLine(E02.GetName());
+            //Console.WriteLine(E02.GetSalary());
+            //Console.WriteLine(E02);
             #endregion
         }
     }
