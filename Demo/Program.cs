@@ -97,6 +97,17 @@
             //Console.WriteLine(E02.GetSalary());
             //Console.WriteLine(E02);
             #endregion
+            #region 04 Encapsulation using Properties [Recommended]
+            //Employee E01 = new Employee();
+            //E01.Id = 1;
+            //E01.Name = " Shimaa ";
+            //E01.Salary = -16000;
+            //E01.Address = "Cairo";
+            //Console.WriteLine(E01.Id);
+            //Console.WriteLine(E01.Name);
+            //Console.WriteLine(E01.Salary);// Default ==> 0
+            //Console.WriteLine(E01.Address);
+            #endregion
         }
     }
 }
