@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System.Xml.Linq;
+
+namespace Demo
 {
     //data Type 
     /* Enum   Struct     */ //Value type
@@ -107,6 +109,28 @@
             //Console.WriteLine(E01.Name);
             //Console.WriteLine(E01.Salary);// Default ==> 0
             //Console.WriteLine(E01.Address);
+            #endregion
+            #region 05 [Indexer]
+            // Phone book
+            //PhoneBook phoneBook = new PhoneBook(3);
+            //phoneBook.AddPerson("shimaa", 911, 0);
+            //phoneBook.AddPerson("Esraa", 101, 1);
+            //phoneBook.AddPerson("Fatin", 0106, 2);
+
+            //Console.WriteLine(phoneBook.GetNumber("shimaa"));
+            //phoneBook.UpdateNum("shimaa", 4456);
+            //Console.WriteLine(phoneBook.GetNumber("shimaa"));
+
+            // Indexer : 
+            //         special property 
+            //                1-named this
+            //Console.WriteLine(phoneBook["shimaa"]);
+            //phoneBook["shimaa"] = 333;
+            //Console.WriteLine(phoneBook["shimaa"]);
+
+
+            //Console.WriteLine(phoneBook[101]);
+
             #endregion
         }
     }
